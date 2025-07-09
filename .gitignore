@@ -1,3 +1,5 @@
+.env
+
 # compiled output
 /dist
 /tmp
@@ -40,3 +42,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
